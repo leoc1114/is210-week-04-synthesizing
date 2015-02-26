@@ -9,8 +9,8 @@ DAY = DAY.lower()
 TIME = raw_input('What time is it? Please input it in 4 digits: ')
 TIME = int(TIME)
 
-if DAY != 'Sat' or 'Sun' or TIME > 0600:
-    SNOOZE = False
-    print 'Beep! '*5
-else:
-    SNOOZE = True
+SNOOZE = True if (DAY == 'Sat' or DAY == 'Sun') or TIME < 0600 else False
+    
+if SNOOZE is False:
+    print 'BLEEP! ' * 5
+    
