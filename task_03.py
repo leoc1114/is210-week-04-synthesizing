@@ -52,9 +52,6 @@ if Primcipal >= 1000000:
         if PREQUALIFIED == Yes:
             RATE = decimal.Decimal('2.62')
 
-print 'Loan report for: NAME'
-A = '-' * 20
-
             
 
 
