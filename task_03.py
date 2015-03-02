@@ -5,13 +5,12 @@
 
 NAME = raw_input('What is your name? ')
 PRINCIPAL = raw_input('What is the amount of your principle? ')
-PRINCIPAL = int(PRINCIPLE)
+PRINCIPAL = int(PRINCIPAL)
 YEARS = raw_input('For how many years is this loan being borrowed? ')
 YEARS = int(YEARS)
 PREQUALIFIED = raw_input('Are you pre-qualified for this loan? ')
-PREQUALIFIED == True if 'Y' else False
 RATE = None
-RATE = R
+R = RATE
 COMPOUNDS = 12
 TOTAL = None
 
