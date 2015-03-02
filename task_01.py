@@ -2,9 +2,9 @@
 # _*_ coding: utf-8 _*_
 """Task 1 created"""
 
-BASE = raw_input('''Which base color, "Seatle Gray", or "Manatee": ''')
+BASE = raw_input('''Which base color, "Seattle Gray", or "Manatee": ''')
 
-if BASE == "Seatle Gray":
+if BASE == "Seattle Gray":
     ACCENT = raw_input('''Which accent color, "Ceramic Glaze", or "Cumulus
 Nimbus": ''')
     if ACCENT == "Ceramic Glaze":
